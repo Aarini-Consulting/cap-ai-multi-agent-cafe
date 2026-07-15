@@ -51,11 +51,9 @@ After building the Cafe Assistant in detail, you will copy the Kitchen Manager a
 
 The agent lives in a separate directory (`agents/cafe-assistant/`) alongside your CAP service. It is a standalone Node.js project that calls your CAP service over HTTP.
 
-```bash
-mkdir -p agents/cafe-assistant/src
-```
+Create a directory my-cafe/agents/cafe-assistant/src
 
-Create `agents/cafe-assistant/package.json`:
+Create file `my-cafe/agents/cafe-assistant/package.json` and place the following code.
 
 ```json
 {
