@@ -57,6 +57,11 @@ Create `agents/orchestrator.mjs` in the `agents/` folder (alongside the speciali
 ```bash
 touch agents/orchestrator.mjs
 ```
+Install the following node packages. 
+
+```
+npm install @sap-ai-sdk/langchain @langchain/langgraph @langchain/core langchain zod
+```
 
 Add the imports and agent URLs:
 
