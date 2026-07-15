@@ -29,12 +29,7 @@ CAP automatically serves any folder under `app/` that contains an `index.html` f
 
 Copy the built app folders from the solution into your project:
 
-```bash
-cp -r ../../solution/app/chat-ui app/chat-ui
-cp -r ../../solution/app/cafe-order app/cafe-order
-cp -r ../../solution/app/kitchen-mgr app/kitchen-mgr
-cp -r ../../solution/app/grievance-mgr app/grievance-mgr
-```
+Copy paste the app folder entirely from the solution and paste it into `my-cafe`.
 
 > **Note:** Only copy the built folders (`chat-ui`, `cafe-order`, `kitchen-mgr`, `grievance-mgr`), not the source folders (`chat-ui-src`, `cafe-order-src`, etc.). The built folders contain static HTML, CSS, and JavaScript — no `npm install` or build step needed.
 
