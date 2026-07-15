@@ -292,8 +292,8 @@ Then a brief reasoning on the next line.`),
       conversationHistory: [{ role: "orchestrator", content: `Routing to: ${decision}. ${reasoning}` }],
     };
   }
-}
 ```
+If you get syntax error with missing curly braces let it be, in the next step we will fill the code that fix this.
 
 > **Understanding the supervisor:**
 >
