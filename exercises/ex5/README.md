@@ -131,28 +131,6 @@ If you have SAP Cloud Logging (powered by Dynatrace) on your BTP subaccount, bin
 }
 ```
 
-### Jaeger (local development with UI)
-
-For a richer local development experience with a visual trace viewer, you can run Jaeger and configure the plugin to export to it:
-
-```bash
-docker run -d --name jaeger -p 16686:16686 -p 4318:4318 jaegertracing/all-in-one
-```
-
-```json
-{
-  "cds": {
-    "requires": {
-      "telemetry": {
-        "kind": "to-jaeger"
-      }
-    }
-  }
-}
-```
-
-Then open `http://localhost:16686` to see a visual trace UI.
-
 > These production configurations are optional for this workshop. The console exporter is sufficient for learning and local testing.
 
 ---
