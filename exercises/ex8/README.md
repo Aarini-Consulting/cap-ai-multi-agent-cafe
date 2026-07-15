@@ -426,7 +426,11 @@ Then add the handler in `srv/cafe-service.js`. Add this at the top of the `cds.s
     }
     return _orchestrator;
   }
+```
 
+Copy paste the following code inside your service implementation. 
+
+```
   this.on('invokeAgent', async (req) => {
     const { message } = req.data;
     if (!message) return req.reject(400, 'MISSING_MESSAGE', 'Please provide a message');
