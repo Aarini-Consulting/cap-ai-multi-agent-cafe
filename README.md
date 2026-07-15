@@ -105,6 +105,3 @@ MTA deployment to Cloud Foundry with HANA, XSUAA, audit log service bindings, an
 ### UI
 
 - [SAP UI5 Web Components](https://sap.github.io/ui5-webcomponents/) -- Component library used for the chat UI
-
-
-AICORE_SERVICE_KEY='{"clientid": "sb-f9ffede1-83b8-4983-9db5-7c3f5bff59ab!b486317|aicore!b540","clientsecret": "7d12ff55-1a1a-4c56-bd35-9b3844766c63$737c7IY4L9hF_0m57R3emstZw2VTWoTqS0eX81uTuVg=","url": "https://aarini-pde-aws.authentication.eu10.hana.ondemand.com",    "identityzone": "aarini-pde-aws","identityzoneid": "f751c10a-9061-4cb7-9f41-c2549432e95e","appname": "f9ffede1-83b8-4983-9db5-7c3f5bff59ab!b486317|aicore!b540","credential-type": "binding-secret","serviceurls": {"AI_API_URL": "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com"},"token-type": ["xsuaa"]}'
