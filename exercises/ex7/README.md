@@ -555,16 +555,14 @@ The Kitchen Manager and Grievance Manager agents follow the same pattern as the 
 
 Copy them from the solution:
 
-```bash
-cp -r ../../solution/agents/kitchen-manager agents/kitchen-manager
-cp -r ../../solution/agents/grievance-manager agents/grievance-manager
-```
+Copy the agents kitchen-manager and grievance-manager from the solution and palce it in the agents folder. 
+
 
 Then install dependencies for each:
 
 ```bash
-cd agents/kitchen-manager && npm install --legacy-peer-deps && cd ../..
-cd agents/grievance-manager && npm install --legacy-peer-deps && cd ../..
+cd agents/kitchen-manager && npm install --legacy-peer-deps
+cd agents/grievance-manager && npm install --legacy-peer-deps
 ```
 
 | Agent | Port | Tools |
