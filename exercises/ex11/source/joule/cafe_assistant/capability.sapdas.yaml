@@ -1,0 +1,8 @@
+schema_version: 3.28.0
+namespace: joule.ext
+name: cafe_assistant_capability
+display_name: Cafe_Assistant
+description: Cafe Assistant agent for the office cafeteria. Helps with ordering food and beverages, browsing the menu, getting dietary recommendations, and checking order status.
+system_aliases:
+  CAFE_ASSISTANT_AGENT:
+    destination: CAFE_ASSISTANT_AGENT

@@ -1,0 +1,9 @@
+{
+  "name": "cap-ai-multi-agent-cafe",
+  "version": "1.0.0",
+  "description": "AI-Ready CAP Multi-Agent Cafe Workshop",
+  "scripts": { "start": "cds-serve" },
+  "dependencies": { "@sap/cds": "^9" },
+  "devDependencies": { "@cap-js/sqlite": "^2" },
+  "cds": { "requires": { "agent-ai": { "kind": "aicore" } } }
+}

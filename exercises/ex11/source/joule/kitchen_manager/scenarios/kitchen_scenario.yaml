@@ -1,0 +1,8 @@
+description: >
+  Use this capability when the user wants to manage kitchen inventory and stock,
+  check stock levels for specific items, view items that are running low on stock,
+  create or fulfill restocking requests, or find alternative items to substitute
+  for out-of-stock menu items.
+target:
+  name: kitchen_function
+  type: function

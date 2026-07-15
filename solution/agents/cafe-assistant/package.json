@@ -1,0 +1,20 @@
+{
+  "name": "cafe-assistant-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "^0.2.4",
+    "@sap-ai-sdk/langchain": "^2.11.0",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/core": "^1.2.0",
+    "langchain": "^1.4.5",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "zod": "^3.24.0",
+    "dotenv": "^16.4.5"
+  }
+}

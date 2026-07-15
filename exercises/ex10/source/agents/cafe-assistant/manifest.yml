@@ -1,0 +1,15 @@
+applications:
+  - name: cafe-assistant-agent
+    memory: 512M
+    disk_quota: 1024M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    health-check-type: http
+    health-check-http-endpoint: /health
+    timeout: 180
+    command: npm start
+    services:
+      - agent-ai
+    env:
+      CAP_SERVICE_URL: https://cafe-multi-agent-srv.cfapps.eu10-005.hana.ondemand.com

@@ -1,0 +1,9 @@
+schema_version: 1.4.0
+name: cafe_multi_agent_assistant
+capabilities:
+  - type: local
+    folder: ./cafe_assistant
+  - type: local
+    folder: ./kitchen_manager
+  - type: local
+    folder: ./grievance_manager

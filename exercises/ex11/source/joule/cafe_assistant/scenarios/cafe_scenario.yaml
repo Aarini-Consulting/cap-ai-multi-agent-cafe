@@ -1,0 +1,8 @@
+description: >
+  Use this capability when the user wants to interact with the office cafeteria menu,
+  place food and beverage orders, check dietary options such as vegan, vegetarian, or
+  gluten-free items, get meal recommendations based on preferences and budget, check
+  order status, or cancel order items.
+target:
+  name: cafe_function
+  type: function

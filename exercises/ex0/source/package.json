@@ -1,0 +1,36 @@
+{
+  "name": "my-cafe",
+  "version": "1.0.0",
+  "description": "AI-Ready CAP Cafe Service — workshop starter project",
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch"
+  },
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9",
+    "@cap-js/sqlite": "^2"
+  },
+  "cds": {
+    "requires": {
+      "[development]": {
+        "auth": {
+          "kind": "mocked",
+          "users": {
+            "cafe-user": {
+              "password": "initial",
+              "roles": ["authenticated-user"]
+            }
+          }
+        }
+      },
+      "[production]": {
+        "db": "hana",
+        "auth": "xsuaa"
+      }
+    }
+  }
+}

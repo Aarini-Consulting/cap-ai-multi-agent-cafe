@@ -1,0 +1,8 @@
+description: >
+  Use this capability when the user wants to submit customer feedback for an order,
+  view details of existing feedback, review open and unresolved complaints, resolve
+  a complaint with an actionable resolution, or generate an empathetic response to
+  a customer complaint.
+target:
+  name: grievance_function
+  type: function

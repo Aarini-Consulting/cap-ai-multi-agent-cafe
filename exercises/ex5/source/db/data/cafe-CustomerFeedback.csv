@@ -1,0 +1,8 @@
+ID,order_ID,rating,comment,sentiment,status,resolution,resolvedAt,createdAt
+c3000001-0000-0000-0000-000000000001,a1000001-0000-0000-0000-000000000001,2,"The chicken bowl was lukewarm and the rice was undercooked. Very disappointing for the price.",negative,open,,,2026-07-14T09:45:00Z
+c3000001-0000-0000-0000-000000000002,a1000001-0000-0000-0000-000000000002,5,"Absolutely loved the Buddha Bowl! Fresh ingredients and great portion size.",positive,resolved,"Thank you for your kind feedback! We're glad you enjoyed it.",,2026-07-14T11:00:00Z
+c3000001-0000-0000-0000-000000000003,a1000001-0000-0000-0000-000000000003,1,"Pasta was stone cold and took 30 minutes to arrive. The server was rude when I asked about the delay. I want a refund.",negative,open,,,2026-07-14T12:15:00Z
+c3000001-0000-0000-0000-000000000004,a1000001-0000-0000-0000-000000000004,3,"Chicken bowl was okay but nothing special. Expected more greens.",neutral,open,,,2026-07-14T12:30:00Z
+c3000001-0000-0000-0000-000000000005,a1000001-0000-0000-0000-000000000001,1,"Found a hair in my brownie. Completely unacceptable. Will not be coming back.",negative,open,,,2026-07-14T10:00:00Z
+c3000001-0000-0000-0000-000000000006,a1000001-0000-0000-0000-000000000002,4,"Good coffee as always. The flat white is consistently great here.",positive,resolved,"Thank you! Our barista team appreciates the recognition.",,2026-07-14T11:30:00Z
+c3000001-0000-0000-0000-000000000007,a1000001-0000-0000-0000-000000000005,2,"Ordered a Buddha Bowl but received Pasta Carbonara instead. Wrong order entirely.",negative,open,,,2026-07-14T12:45:00Z

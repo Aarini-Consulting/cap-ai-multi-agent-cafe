@@ -1,0 +1,35 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.cafe-user",
+      "description": "Cafe user — can browse menu, place orders, and interact with the AI agent"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "CafeUser",
+      "description": "Cafe user with access to menu, ordering, and AI agent",
+      "scope-references": [
+        "$XSAPPNAME.cafe-user"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Token_Exchange",
+      "description": "UAA token exchange for SAML authentication",
+      "scope-references": [
+        "uaa.user"
+      ]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "CafeUser",
+      "description": "Cafe user — browse menu, place orders, chat with AI agent",
+      "role-template-references": [
+        "$XSAPPNAME.CafeUser"
+      ]
+    }
+  ]
+}

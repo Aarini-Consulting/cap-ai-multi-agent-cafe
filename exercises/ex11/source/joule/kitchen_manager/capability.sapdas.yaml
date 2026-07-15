@@ -1,0 +1,8 @@
+schema_version: 3.28.0
+namespace: joule.ext
+name: kitchen_manager_capability
+display_name: Kitchen_Manager
+description: Kitchen Manager agent for the office cafeteria. Handles stock and inventory management, checking stock levels, creating and fulfilling restock requests, and finding alternative items when stock is low.
+system_aliases:
+  KITCHEN_MANAGER_AGENT:
+    destination: KITCHEN_MANAGER_AGENT

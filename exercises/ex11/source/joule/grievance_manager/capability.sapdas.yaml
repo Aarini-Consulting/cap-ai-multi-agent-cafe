@@ -1,0 +1,8 @@
+schema_version: 3.28.0
+namespace: joule.ext
+name: grievance_manager_capability
+display_name: Grievance_Manager
+description: Grievance Manager agent for the office cafeteria. Handles customer complaints and feedback, reviews open complaints, resolves issues with actionable resolutions, and generates empathetic responses to ensure customer satisfaction.
+system_aliases:
+  GRIEVANCE_MANAGER_AGENT:
+    destination: GRIEVANCE_MANAGER_AGENT

@@ -1,0 +1,33 @@
+{
+  "name": "cap-ai-multi-agent-cafe",
+  "version": "1.0.0",
+  "description": "AI-Ready CAP Multi-Agent Cafe Workshop",
+  "scripts": { "start": "cds-serve" },
+  "dependencies": {
+    "@sap/cds": "^9",
+    "@cap-js/audit-logging": "^1",
+    "@sap/xssec": "^4",
+    "passport": "^0.7"
+  },
+  "devDependencies": { "@cap-js/sqlite": "^2" },
+  "cds": {
+    "requires": {
+      "agent-ai": { "kind": "aicore" },
+      "[development]": {
+        "auth": {
+          "kind": "mocked",
+          "users": {
+            "cafe-user": {
+              "password": "initial",
+              "roles": ["authenticated-user"]
+            }
+          }
+        }
+      },
+      "[production]": {
+        "db": "hana",
+        "auth": "xsuaa"
+      }
+    }
+  }
+}

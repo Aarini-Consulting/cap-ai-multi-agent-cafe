@@ -1,0 +1,6 @@
+ID,item_ID,quantity,status,urgency,requestedAt,fulfilledAt,notes
+d4000001-0000-0000-0000-000000000001,b1a2c3d4-0005-0000-0000-000000000005,50,pending,critical,2026-07-14T08:00:00Z,,"Fresh Orange Juice completely out of stock — customers requesting it daily"
+d4000001-0000-0000-0000-000000000002,b1a2c3d4-0002-0000-0000-000000000002,30,pending,high,2026-07-14T09:30:00Z,,"Grilled Chicken Bowl down to 3 units — high demand today"
+d4000001-0000-0000-0000-000000000003,b1a2c3d4-0007-0000-0000-000000000007,20,fulfilled,normal,2026-07-14T07:00:00Z,2026-07-14T08:30:00Z,"Fruit Salad routine morning restock — completed"
+d4000001-0000-0000-0000-000000000004,b1a2c3d4-0006-0000-0000-000000000006,15,pending,normal,2026-07-14T10:00:00Z,,"Chocolate Brownie running lower than usual — afternoon rush expected"
+d4000001-0000-0000-0000-000000000005,b1a2c3d4-0004-0000-0000-000000000004,40,fulfilled,high,2026-07-14T06:30:00Z,2026-07-14T07:15:00Z,"Flat White beans restocked for morning rush — completed"

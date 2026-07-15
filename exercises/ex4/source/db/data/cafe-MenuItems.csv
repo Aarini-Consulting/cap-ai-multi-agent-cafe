@@ -1,0 +1,9 @@
+ID,name,description,price,currency,category,dietary,available,prepTimeMin,stockQuantity,lowStockThreshold
+b1a2c3d4-0001-0000-0000-000000000001,Vegan Buddha Bowl,"Quinoa, roasted chickpeas, avocado, mixed greens, tahini dressing",7.90,EUR,main,"vegan,gluten_free",true,12,50,5
+b1a2c3d4-0002-0000-0000-000000000002,Grilled Chicken Bowl,"Grilled chicken breast, basmati rice, mixed greens, honey mustard",8.50,EUR,main,gluten_free,true,15,3,5
+b1a2c3d4-0003-0000-0000-000000000003,Pasta Carbonara,"Classic carbonara with pancetta, egg, parmesan, and black pepper",9.20,EUR,main,,true,10,30,5
+b1a2c3d4-0004-0000-0000-000000000004,Flat White,"Double shot espresso with silky steamed milk",3.50,EUR,drink,vegetarian,true,3,100,10
+b1a2c3d4-0005-0000-0000-000000000005,Fresh Orange Juice,"Freshly squeezed seasonal oranges",4.00,EUR,drink,"vegan,gluten_free",false,2,0,5
+b1a2c3d4-0006-0000-0000-000000000006,Chocolate Brownie,"Rich dark chocolate brownie with walnuts",3.00,EUR,dessert,vegetarian,true,0,25,5
+b1a2c3d4-0007-0000-0000-000000000007,Fruit Salad,"Seasonal fresh fruit mix with mint and lime",4.50,EUR,snack,"vegan,gluten_free",true,5,15,5
+b1a2c3d4-0008-0000-0000-000000000008,Sparkling Water,"330ml sparkling mineral water",1.50,EUR,drink,vegan,true,0,200,20
