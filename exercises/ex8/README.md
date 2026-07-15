@@ -308,26 +308,7 @@ Then a brief reasoning on the next line.`),
       conversationHistory: [{ role: "orchestrator", content: `Routing to: ${decision}. ${reasoning}` }],
     };
   }
-```
-If you get syntax error with missing curly braces let it be, in the next step we will fill the code that fix this.
-
-> **Understanding the supervisor:**
->
-> - **Context summary** — the orchestrator sends the user message plus all specialist results so far to the LLM. The LLM sees the full picture and makes an informed routing decision.
-> - **Routing rules** in the system prompt prevent common mistakes: calling the same specialist twice, forgetting to finish, or misrouting complaints.
-> - **Safety limit** (`iteration > 6`) prevents infinite loops if the LLM keeps routing without finishing.
-> - **Decision parsing** — the LLM responds with a specialist name and reasoning. The code normalizes this to a graph node name.
-
----
-
-## Step 5: Build Specialist Wrapper Nodes and Wire the Graph
-
-Each specialist wrapper node prepares context (combining the user message with other specialists' results) and calls the specialist via A2A.
-
-Continue in the same `createCafeOrchestrator` function:
-
-```javascript
-  // Specialist wrapper nodes
+// Specialist wrapper nodes
   async function cafeAssistantNode(state) {
     const context = [
       `Customer says: "${state.userMessage}"`,
@@ -400,6 +381,13 @@ Continue in the same `createCafeOrchestrator` function:
 }
 ```
 
+> **Understanding the supervisor:**
+>
+> - **Context summary** — the orchestrator sends the user message plus all specialist results so far to the LLM. The LLM sees the full picture and makes an informed routing decision.
+> - **Routing rules** in the system prompt prevent common mistakes: calling the same specialist twice, forgetting to finish, or misrouting complaints.
+> - **Safety limit** (`iteration > 6`) prevents infinite loops if the LLM keeps routing without finishing.
+> - **Decision parsing** — the LLM responds with a specialist name and reasoning. The code normalizes this to a graph node name.
+
 > **Understanding the graph:**
 >
 > ```
@@ -412,7 +400,7 @@ Continue in the same `createCafeOrchestrator` function:
 
 ---
 
-## Step 6: Connect to the CAP Service
+## Step 5: Connect to the CAP Service
 
 The orchestrator is called from the CAP service's `invokeAgent` action. Open `srv/cafe-service.cds` and add the `invokeAgent` action at the end of the service definition:
 
@@ -461,7 +449,7 @@ Then add the handler in `srv/cafe-service.js`. Add this at the top of the `cds.s
 
 ---
 
-## Step 7: Test the Multi-Agent Flow
+## Step 6: Test the Multi-Agent Flow
 
 Start all four processes in separate terminals:
 
