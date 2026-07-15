@@ -54,9 +54,13 @@ You will:
 
 Create `agents/orchestrator.mjs` in the `agents/` folder (alongside the specialist agent folders):
 
+Create a file inside the agents folder and name it `orchestrator.mjs`.
+
 ```bash
 touch agents/orchestrator.mjs
 ```
+
+
 Install the following node packages. 
 
 ```
