@@ -81,21 +81,45 @@ cds watch
 
 **Terminal 2 — Cafe Assistant (port 8081):**
 ```bash
+cd agents/cafe-assistant-src
+npm install
+Watch for any script errors
+
 cd agents/cafe-assistant
+npm install
 npm run dev
 ```
 
 **Terminal 3 — Kitchen Manager (port 8082):**
 ```bash
+
+cd agents/kitchen-manager-src
+npm install
+Watch for any script errors
+
 cd agents/kitchen-manager
+npm install
 npm run dev
 ```
 
 **Terminal 4 — Grievance Manager (port 8083):**
 ```bash
+cd agents/grievance-manager-src
+npm install
+Watch for any script errors
+
 cd agents/grievance-manager
+npm install
 npm run dev
 ```
+
+Keep an eye on the npm install response, if there are any scripts that are blocked run the following scripts to approve the build.
+npm install-scripts ls  - This command will give you the list of modules that are blocked. 
+npm install-scripts approve <modulename> 
+e.g npm install-scripts approve esbuild fsevents -> This approves the script
+npm rebuild <modulename>
+e.g npm rebuild esbuild fsevents
+
 
 Verify all four processes are running:
 
