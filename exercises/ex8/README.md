@@ -73,7 +73,7 @@ CAP_SERVICE_URL=http://localhost:4004
 AICORE_SERVICE_KEY=
 ```
 
-Add the imports and agent URLs:
+Add the imports and agent URLs to file agents/orchestrator.mjs:
 
 ```javascript
 import "dotenv/config";
