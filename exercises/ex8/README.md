@@ -292,6 +292,7 @@ Then a brief reasoning on the next line.`),
       conversationHistory: [{ role: "orchestrator", content: `Routing to: ${decision}. ${reasoning}` }],
     };
   }
+}
 ```
 
 > **Understanding the supervisor:**
