@@ -70,7 +70,7 @@ This confirms the telemetry plugin is active and exporting trace spans to the co
 Now trigger some operations:
 
 ```bash
-curl -s -u cafe-user:initial "http://localhost:4004/api/cafe/Menu" > /dev/null
+curl -s -u cafe-user:initial "http://localhost:4004/api/cafe/Menu" 
 curl -s -u cafe-user:initial -X POST http://localhost:4004/api/cafe/placeOrder \
   -H "Content-Type: application/json" \
   -d '{"items": [{"itemId": "b1a2c3d4-0004-0000-0000-000000000004", "quantity": 1}]}'
