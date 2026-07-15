@@ -121,7 +121,7 @@ These require custom audit events, which you implement in a [`server.js` file](h
 
 > **Action**
 >
-> Create a new file `server.js` in the project root (not in `srv/`):
+> Create a new file `server.js` in the project root (my-cafe) (not in `srv/`):
 
 ```javascript
 // server.js
