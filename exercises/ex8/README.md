@@ -428,7 +428,7 @@ Then add the handler in `srv/cafe-service.js`. Add this at the top of the `cds.s
   }
 ```
 
-Copy paste the following code inside your service implementation. 
+Copy paste the following code inside your service implementation in the file `cafe-service.js` after the handler `generateComplaintResponse`.
 
 ```
   this.on('invokeAgent', async (req) => {
