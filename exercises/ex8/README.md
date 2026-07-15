@@ -63,9 +63,16 @@ Install the following node packages.
 npm install @sap-ai-sdk/langchain @langchain/langgraph @langchain/core langchain zod
 ```
 
+In the root of the cap project `my-cafe`, add .env file and add the environment variables for AI Core key. 
+```
+CAP_SERVICE_URL=http://localhost:4004
+AICORE_SERVICE_KEY=
+```
+
 Add the imports and agent URLs:
 
 ```javascript
+import "dotenv/config";
 import { StateGraph, START, END, Annotation } from "@langchain/langgraph";
 import { OrchestrationClient } from "@sap-ai-sdk/langchain";
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
