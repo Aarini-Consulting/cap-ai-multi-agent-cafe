@@ -87,7 +87,7 @@ Your `package.json` already has `[development]` and `[production]` profiles conf
 
 For XSUAA to work on SAP BTP, you need a security descriptor that defines the scopes and role templates for your application.
 
-&#9654; Create a file `xs-security.json` in the project root:
+&#9654; Create a file `xs-security.json` in the project root: `my-cafe`
 
 ```json
 {
