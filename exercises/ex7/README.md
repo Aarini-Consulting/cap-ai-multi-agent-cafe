@@ -555,7 +555,7 @@ The Kitchen Manager and Grievance Manager agents follow the same pattern as the 
 
 Copy them from the solution:
 
-Copy the agents kitchen-manager and grievance-manager from the solution and palce it in the agents folder. 
+Copy the agents kitchen-manager and grievance-manager from the solution and place it in the agents folder. 
 
 
 Then install dependencies for each:
